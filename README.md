@@ -1,2 +1,4 @@
 # sunscreen
 I am about to create the a new super fast programming language
+
+The language will be called sunscreen. Work will start soon...
