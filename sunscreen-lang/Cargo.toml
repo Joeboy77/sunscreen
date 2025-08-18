@@ -1,0 +1,25 @@
+[package]
+name = "sunscreen-lang"
+version = "0.1.0"
+edition = "2021"
+authors = ["Sunscreen Team"]
+description = "A fast, simple, and friendly programming language"
+
+[dependencies]
+# For command line argument parsing
+clap = { version = "4.0", features = ["derive"] }
+
+# For better error handling
+anyhow = "1.0"
+
+# For colored terminal output
+colored = "2.0"
+
+# For line editing and history (REPL)
+rustyline = "12.0"
+
+# For testing
+criterion = { version = "0.5", features = ["html_reports"] }
+
+[dev-dependencies]
+criterion = { version = "0.5", features = ["html_reports"] } 
